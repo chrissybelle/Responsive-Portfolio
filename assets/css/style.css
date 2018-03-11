@@ -250,11 +250,82 @@ td {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 980px){
+@media screen and (max-width: 980px) and (min-width: 769px) {
+    header {
+        width: 100%;
+    }
 
+    .header-container {
+        width: 90%;
+    }
+
+    .content {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        padding: 0 auto;
+    }
+
+    .main-content {
+        width: 55%;
+        float: left;
+        display: inline-block;
+        overflow: visible;
+        margin-right: 5%;
+    }
+
+    aside {
+        float: right;
+        display: inline-block;
+        width: 40%;
+    }
+
+    .connect {
+        width: 30%;
+        height: auto;
+        padding: 1%
+    }
+
+    .connect-1 {
+        width: 27%;
+        height: auto;
+        padding: 1%
+    }
+
+    /* ABOUT PAGE-SPECIFIC */
+    .profile-image {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .profile {
+        display: block;
+        width: 100%;
+        text-align: justify;
+    }
+
+    /* PORTFOLIO PAGE-SPECIFIC */
+    td {
+        display: block;
+        float: left;
+        width: 100%;
+    }
+
+    .portfolio-link {
+        width: 100%;
+    }
+    
+    .portfolio-content h4 {
+        display: block;
+        float: left;
+        width: 100%;
+        margin: 0 auto;
+    }    
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) and (min-width: 641px) {
     header {
         width: 100%;
     }
@@ -282,6 +353,19 @@ td {
         width: 100%;
         margin: 0 auto;
         margin-bottom: 50px;
+    }
+
+    .connect {
+        width: 57px;
+        height: auto;
+        padding: 2px;
+    }
+    
+    .connect-1 {
+        width: 50px;
+        height: auto;
+        padding: 4px 0px 0px 3px;
+        margin-bottom: 4px;
     }
 
     .footer {
@@ -350,18 +434,12 @@ td {
         display: block;
         float: left;
         width: 100%;
+        height: auto;
+        margin-bottom: 15px;
     }
 
-    .portfolio-link {
-        width: 100%;
-
-    }
-    
     .portfolio-content h4 {
-        display: block;
-        float: left;
-        width: 100%;
-        margin: 0 auto;
+        top: -70px;
     }
 
     /* ABOUT PAGE-SPECIFIC */
